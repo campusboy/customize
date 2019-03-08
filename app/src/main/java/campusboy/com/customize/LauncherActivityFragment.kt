@@ -9,10 +9,10 @@ import android.view.ViewGroup
 /**
  * A placeholder fragment containing a simple view.
  */
-class LanucherActivityFragment : Fragment() {
+class LauncherActivityFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.fragment_lanucher, container, false)
+        return inflater.inflate(R.layout.fragment_launcher, container, false)
     }
 }

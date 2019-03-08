@@ -6,13 +6,13 @@ import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 
-import kotlinx.android.synthetic.main.activity_lanucher.*
+import kotlinx.android.synthetic.main.activity_launcher.*
 
-class LanucherActivity : AppCompatActivity() {
+class LauncherActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_lanucher)
+        setContentView(R.layout.activity_launcher)
         setSupportActionBar(toolbar)
 
         fab.setOnClickListener { view ->
@@ -23,7 +23,7 @@ class LanucherActivity : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
-        menuInflater.inflate(R.menu.menu_lanucher, menu)
+        menuInflater.inflate(R.menu.menu_launcher, menu)
         return true
     }
 
